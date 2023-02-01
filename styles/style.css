@@ -90,7 +90,7 @@
 }
 
 .header__link:hover {
-  color: #2f80ed;
+  color: #1f69c9;
 }
 
 .header__address {
@@ -170,7 +170,7 @@
 }
 
 .events__more:hover{
-  color: #2f80ed;
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -278,7 +278,7 @@
   gap: 40px;
   max-width: 760px;
   margin: auto;
-  list-style: none;
+  list-style-type: none;
 }
 
 .card {
@@ -470,14 +470,14 @@
 
 .footer__list-item {
   font-size: 16px;
-  line-height: 20px
+  line-height: 20px;
 }
 
 .footer__column-heading {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 16px;
-  line-height: 20px
+  line-height: 20px;
 
 }
 
@@ -485,7 +485,7 @@
   color: white;
   text-decoration: none;
   font-size: 16px;
-  line-height: 20px
+  line-height: 20px;
 }
 
 .footer__column-link:hover {
@@ -501,4 +501,7 @@
 
 .footer__copyright {
   margin: 0;
+  position: relative;
+  left: 80px;
+  top: 0;
 }
