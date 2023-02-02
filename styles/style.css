@@ -30,7 +30,7 @@
 }
 
 .nav__links {
-  margin-top: 8px;
+  margin: 8px 0 0;
   display: flex;
   align-items: flex-start;
   column-gap: 20px;
@@ -61,7 +61,7 @@
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 32px;
+  margin: 32px 0 0;
 }
 
 .header__image {
@@ -156,7 +156,8 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-
+  margin: 0;
+  padding: 0;
 }
 
 .events__description {
@@ -169,7 +170,7 @@
   text-decoration: none;
 }
 
-.events__more:hover{
+.events__more:hover {
   color: #1f69c9;
 }
 
@@ -194,31 +195,26 @@
 }
 
 .person_name_feynman {
-  position: absolute;
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  position: absolute;
   right: 216px;
   bottom: 18px;
 }
 
 .person_name_mitchell {
-  position: absolute;
   left: 142px;
   bottom: 82px;
 }
 
 .person_name_tarter {
-  position: absolute;
   left: 159px;
   top: 79px;
 }
@@ -245,11 +241,10 @@
   margin: 0;
 }
 
-
 .staff {
   padding-top: 100px;
   padding-bottom: 140px;
-  background-image: url(/se_project_library/images/staff_picks_background.jpg);
+  background-image: url(../images/staff_picks_background.jpg);
   background-size: cover;
 }
 
@@ -259,7 +254,6 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
-
 }
 
 .staff__subtitle {
@@ -268,7 +262,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 24px 0;
+  margin: 24px 0 0;
 }
 
 .staff__cards {
@@ -277,10 +271,9 @@
   justify-content: space-between;
   gap: 40px;
   max-width: 760px;
-  margin: 0 auto;
   list-style-type: none;
   padding: 0;
-  margin-top: 68px;
+  margin: 68px auto 0;
 }
 
 .card {
@@ -333,7 +326,6 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
-  padding-bottom: 50px;
 }
 
 .membership__steps {
@@ -341,15 +333,12 @@
   padding: 0;
   margin: 100px 0 0;
   display: flex;
+  justify-content: space-around;
   gap: 40px;
 }
 
 .step {
-  display: flex;
-  flex-wrap: wrap;
-  width: 220px;
-  margin: 0 auto;
-  align-items: flex-start;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -375,6 +364,7 @@
   color: #fff;
   overflow: hidden;
   display: flex;
+  justify-content: space-between;
   position: relative;
   box-sizing: border-box;
   z-index: -2;
@@ -399,15 +389,11 @@
   flex-direction: column;
   gap: 32px;
   margin: 0;
-  position: relative;
   left: 120px;
-
 }
 
 .about__paragraph {
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .about__circle {
@@ -429,34 +415,30 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  min-height: 224px;
 }
 
 .footer__columns {
+  min-height: 224px;
   display: flex;
-  justify-content: flex-end;
-  gap: 100px;
   position: relative;
-
 }
 
 .footer__column_content_hours {
-  font-size: 16px;
-  line-height: 20px;
+  position: absolute;
+  top: 0;
+  right: 200px;
 }
 
 .footer__column_content_social {
-  font-size: 16px;
-  line-height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .footer__logo {
   width: 116px;
   height: 21px;
-  position: absolute;
-  left: 80px;
-  top: 0;
-
+  margin: auto;
 }
 
 .footer__list {
@@ -475,18 +457,16 @@
 }
 
 .footer__column-heading {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-size: 16px;
   line-height: 20px;
-
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .footer__column-link:hover {
@@ -502,7 +482,6 @@
 
 .footer__copyright {
   margin: 0;
-  position: relative;
   left: 80px;
   top: 0;
 }
