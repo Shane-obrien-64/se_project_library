@@ -364,7 +364,7 @@
   color: #fff;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  gap: 120px;
   position: relative;
   box-sizing: border-box;
   z-index: -2;
@@ -389,7 +389,6 @@
   flex-direction: column;
   gap: 32px;
   margin: 0;
-  left: 120px;
 }
 
 .about__paragraph {
@@ -420,19 +419,14 @@
 .footer__columns {
   min-height: 224px;
   display: flex;
-  position: relative;
 }
 
 .footer__column_content_hours {
-  position: absolute;
-  top: 0;
-  right: 200px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  position: absolute;
-  top: 0;
-  right: 0;
+  margin-left: 100px;
 }
 
 .footer__logo {
@@ -482,6 +476,4 @@
 
 .footer__copyright {
   margin: 0;
-  left: 80px;
-  top: 0;
 }
